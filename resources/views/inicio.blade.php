@@ -12,15 +12,15 @@
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background-color: #7f8c8d;
+            background-color: #f4f6f8; /* Fondo general gris claro neutro */
             display: flex;
             flex-direction: column;
             min-height: 100vh;
         }
 
         header {
-            background-color: #8395a7;
-            color: white;
+            background-color: #1e293b; /* Azul oscuro elegante */
+            color: #ffffff;
             padding: 30px 20px;
             text-align: center;
         }
@@ -33,10 +33,11 @@
         header p {
             margin: 0;
             font-size: 1.1rem;
+            color: #cbd5e1;
         }
 
         nav {
-            background-color: #576574;
+            background-color: #2563eb; /* Azul primario vibrante */
             padding: 15px;
             text-align: center;
         }
@@ -46,6 +47,11 @@
             text-decoration: none;
             margin: 0 15px;
             font-size: 1rem;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
         }
 
         main {
@@ -59,43 +65,49 @@
         }
 
         .bienvenida {
-            background-color: #c8d6e5;
+            background-color: #ffffff; /* Tarjeta blanca limpia */
             padding: 50px 40px;
             text-align: center;
-            border-radius: 8px;
+            border-radius: 12px;
             width: 100%;
             display: flex;
             flex-direction: column;
             align-items: center;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); /* Suave sombra para dar profundidad */
         }
 
         .bienvenida h2 {
             margin: 0 0 15px 0;
-            color: #222;
+            color: #0f172a; /* Texto oscuro de alto contraste */
             font-size: 1.8rem;
         }
 
         .bienvenida p {
             margin: 0 0 25px 0;
-            color: #333;
+            color: #475569;
             font-size: 1.1rem;
         }
 
         .boton {
             display: inline-block;
-            background-color: #4b7bec;
+            background-color: #2563eb; /* Botón a juego con el menú */
             color: white;
             padding: 12px 28px;
             text-decoration: none;
             border-radius: 6px;
             font-weight: bold;
+            transition: background-color 0.2s ease;
+        }
+
+        .boton:hover {
+            background-color: #1d4ed8;
         }
 
         footer {
             padding: 20px;
             text-align: center;
-            background-color: #576574;
-            color: white;
+            background-color: #0f172a; /* Pie de página muy oscuro */
+            color: #94a3b8;
         }
 
         footer p {
